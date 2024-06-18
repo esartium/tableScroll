@@ -4,7 +4,6 @@ $conn = mysqli_connect("localhost", "kekert13ic", "1BMP\$8mJ1K5XUYX5", "kekert13
 
     if($conn->connect_error) {
         die("Ошибка соединения: " . $conn->connect_error);
-	echo "error!!!!";
     }
     
 // Заполнение таблицы:
